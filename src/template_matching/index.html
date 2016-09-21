@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template Matching</title>
+    <!--load css-->
+    <link rel="stylesheet" href="../../dependencies/css/bootstrap.css">
+    <!--load js -->
+    <script src="../../TRACKING/build/tracking-min.js"></script>
+    <script src="template.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Template Matching ...using features </h1><br>
+        <div class="row">
+            <div class="col-md-4">
+                <canvas id="big_canvas"></canvas>
+                <!--<img id="image_big" src="images/optemplate.png">-->
+            </div>
+            <div class="col-md-4 col-md-offset-3">
+                <h4>
+                    Find location of query image  :
+                    <canvas id="query_canvas"></canvas>
+                    <!--<img id="query_im" src="images/tempCrop.jpg">-->
+                </h4>
+                <button id="locate" class="btn btn-block btn-primary">Locate !</button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

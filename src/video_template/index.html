@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>video template</title>
+    <link rel="stylesheet" type="text/css", href="../../dependencies/css/bootstrap.min.css">
+    <script src="../../TRACKING/build/tracking-min.js"></script>
+    <script src="template.js"></script>
+
+    <style>
+       video,  #canvas {
+            margin-left: 0px;
+            margin-top: 0px;
+            position: absolute;
+        }
+
+        img, #regioncanvas{
+            position: fixed;
+            top: 110px;
+            left:800px;
+        }
+        p{
+            position: fixed;
+            left:800px;
+            top: 50px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="page-header">
+            <h2>Feature based video matching</h2>
+
+        </div>
+        <div class="row">
+
+            <div class="col-md-4">
+                <video autoplay="true" id="myVideo" width="480" height="320"></video>
+                <canvas id="canvas" width="480" height="320"></canvas>
+            </div>
+
+            <!--<div class="col-md-4 col-md-offset-2">-->
+                <!--<button type="button" class="btn btn-primary" id="select region"> Select target region</button>-->
+                <p>Target match Image</p>
+                <div id="imspace">
+                    <img id="im" src="im/target.jpg">
+                    <canvas id="regioncanvas" width="480" height="320"></canvas>
+                </div>
+
+            <!--</div>-->
+        </div>
+    </div>
+
+    <script>watch_video();</script>
+
+
+</body>
+</html>
