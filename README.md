@@ -22,10 +22,11 @@ and use [Tracking.JS](https://github.com/eduardolundgren/tracking.js)
 ### Experiment images !!
 
 <center>
-![displaying_of_frame.png.png](pics/displaying_of_frame.png.png)
-![]()
-![]()
-![]()
+![displaying_of_frame.png.png](pics/displaying_of_frame.png.png =250x)
+![binary_image.png](pics/binary_image.png =250x)
+![grayscale_image.png](pics/grayscale_image.png =250x)
+![inversion.png](pics/inversion.png =250x)
+![multiple_color_tracking.png](pics/multiple_color_region_tracking.png =250x)
 </center>
 
 This repository is open for contribution.
